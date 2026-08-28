@@ -1,3 +1,4 @@
+
 # Kampus — Campus Event Management System
 
 A full-stack event management system for college fests, workshops, and seminars.
@@ -102,3 +103,7 @@ Open `http://localhost:5173` — you should immediately see the photo carousel a
 - The "sell ticket" (walk-in) flow requires the attendee to already have an account — the organizer looks them up by email rather than the app creating accounts on their behalf, which keeps auth logic in one place.
 - Authorization is enforced both in route middleware (`requireRole`) and inside controllers (e.g. an organizer can only edit/delete/view attendees/sell tickets for their own events).
 - Event photos in the seed data are stock placeholder images (`picsum.photos`) referenced by URL — swap `banner_url` for your own image links (or a real upload flow) any time.
+
+
+A real time  project on college event management system 
+
